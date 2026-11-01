@@ -1,0 +1,17 @@
+# Virtual environment and Python cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+
+# MLflow logbook and saved runs (large; recreate with step4_mlflow.py)
+mlflow.db
+mlruns/
+
+# Data files: step1.py regenerates all of them from the raw dataset,
+# which is downloaded separately (see README)
+data/*.csv
